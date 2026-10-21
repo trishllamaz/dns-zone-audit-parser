@@ -1,0 +1,13 @@
+{
+  "ipClusters": {
+    "192.0.2.10": "HostingProviderA",
+    "198.51.100.20": "CDN",
+    "203.0.113.30": "CloudLB"
+  },
+  "cnameProviders": [
+    { "pattern": "azurewebsites\\.net", "name": "Azure App Service" },
+    { "pattern": "pantheonsite\\.io",   "name": "Pantheon" },
+    { "pattern": "cloudfront\\.net",    "name": "AWS CloudFront" },
+    { "pattern": "ultradns",            "name": "UltraDNS" }
+  ]
+}

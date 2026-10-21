@@ -1,0 +1,9 @@
+Zone File ,FQDN,Record Name,Record Type,Record Value,DNS Resolves,Resolved IPs,HTTP Status Code,Effective URL,Redirect Type,Error
+example.com.zone,www.example.com,www,CNAME,example-prod.azurewebsites.net,Yes,192.0.2.10,200,https://www.example.com/,None,
+example.com.zone,shop.example.com,shop,A,192.0.2.10,Yes,192.0.2.10,301,https://store.example.net/home United States,Permanent,
+example.com.zone,blog.example.com,blog,CNAME,live-example.pantheonsite.io,Yes,"198.51.100.20, 198.51.100.21",200,blog.example.com/,None,
+example.com.zone,old.example.com,old,A,203.0.113.99,No,,,,None,
+example.com.zone,promo2019.example.com,promo2019,CNAME,promo.example-legacy.org,No,,,,None,DNS Resolution Failed
+example.org.zone,example.org,@,A,203.0.113.30,Yes,203.0.113.30,302,https://www.example.com/landing,Temporary,
+example.org.zone,careers.example.org,careers,CNAME,d1234abcd.cloudfront.net,Yes,198.51.100.20,301,https://store.example.net/careers,Permanent,
+example.org.zone,mail.example.org,mail,MX,mx1.example.org,Yes,203.0.113.40,,,None,

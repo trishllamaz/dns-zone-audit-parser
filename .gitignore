@@ -1,0 +1,6 @@
+# Never commit real audit data or results
+*.csv
+!sample_input.csv
+
+# Real IP/provider mappings stay local
+config.json
